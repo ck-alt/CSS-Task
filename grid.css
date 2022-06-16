@@ -1,0 +1,58 @@
+    body {
+        background-color: black;
+    }
+    
+    #col {
+        margin: auto;
+        display: grid;
+        grid-template-rows: auto auto;
+        border: black solid 5px;
+        width: 300px;
+    }
+    
+    .col1 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    #pink {
+        height: 100px;
+        width: 200px;
+        background-color: pink;
+    }
+    
+    #orange {
+        margin-left: 0px;
+        height: 100px;
+        width: 100px;
+        background-color: orange;
+    }
+    
+    #green {
+        height: 100px;
+        width: 135px;
+        background-color: green;
+    }
+    
+    #blue {
+        display: grid;
+        grid-template-rows: auto auto;
+        height: 100px;
+        width: 165px;
+    }
+    
+    #blue1 {
+        height: 50px;
+        width: 165px;
+        background-color: blue;
+    }
+    
+    #blue2 {
+        height: 50px;
+        width: 165px;
+        background-color: blue;
+    }
+    
+    #col div {
+        outline: 5px black solid;
+    }

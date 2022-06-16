@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+}
+
+#main {
+    display: flex;
+    margin-top: 20vh;
+    width: 600px;
+    justify-content: center;
+}
+
+#orange {
+    background-color: hsl(31, 77%, 52%);
+}
+
+#d-cyan {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#vd-cyan {
+    background-color: hsl(179, 100%, 13%);
+}
+
+#sedans {
+    color: hsl(31, 77%, 52%);
+}
+
+#suvs {
+    color: hsl(184, 100%, 22%);
+}
+
+#luxury {
+    color: hsl(179, 100%, 13%);
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 11px;
+}
+
+.para {
+    height: 100px;
+}
+
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+}
+
+.cars {
+    padding: 20px;
+}
+
+button {
+    margin-top: 10px;
+    border-radius: 15px 15px 15px 15px;
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+    height: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 10px;
+    padding: 10px;
+}
